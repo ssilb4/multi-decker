@@ -33,7 +33,7 @@ class MultiDeckerDialog(QDialog):
 
 def create_multi_decker():
     dialog = MultiDeckerDialog()
-    dialog.exec_()
+    dialog.exec()
 
 action = QAction("Create Multiple Empty Decks", mw)
 mw.form.menuTools.addAction(action)
